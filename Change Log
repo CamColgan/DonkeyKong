@@ -5,3 +5,4 @@ Marco Added Level editor, fixed(ish) barrels & new colors
 cam added wip animation and adjusted marios movement
 Marco Added Ladder class and sprite
 imrahn added some game muisc that plays, stops when you die
+(check "SOUND_EFFECTS" for putting in the sounds)
