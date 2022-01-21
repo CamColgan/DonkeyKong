@@ -1,0 +1,27 @@
+--[[ Barrel Class]]--
+// Put this underneath the speedXY floats \\
+GreenfootSound sound = new GreenfootSound("hit.wav"); // for when it hits wall
+
+// Underneath "getWorld().removeObject(this);" put in this \\
+sound.play();
+
+--[[ Mario class]]--
+ // Put these 3 underneath the "int Lives = 3;" \\
+ GreenfootSound music = new GreenfootSound("music.mp3");
+ GreenfootSound game_over_sound = new GreenfootSound("game-over.mp3");    
+ GreenfootSound hurt_sound = new GreenfootSound("barrels.mp3");  
+ 
+ // Put this in the first line in the "act()" method: \\
+ music.playLoop();
+
+// underneath "Lives = Lives -1;" \\
+hurt_sound.play();
+
+// in the "if(Lives == 0)" \\
+game_over_sound.play();
+music.stop();
+
+ALL SOUNDS ARE LOCATED IN THIS REPOSITORY IN THE "Sounds" folder. Put those audio files in the "sounds" folder in the Greenfoot project (it is there by default). 
+
+Here is the link to more information on the sounds:
+https://www.greenfoot.org/files/javadoc/greenfoot/GreenfootSound.html
