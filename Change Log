@@ -8,3 +8,4 @@ imrahn added some game muisc that plays, stops when you die (check "SOUND_EFFECT
 Cam Added better mario animations, ladder movement
 Marco Added actually good working barrels, ladderCollider Class for use with the barrels, Combined Cam and imrahn's code into 0.3.3
 Cam added DK animations and mario ladder functionality
+Cam added level switching
