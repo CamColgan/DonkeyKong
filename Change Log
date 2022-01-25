@@ -2,6 +2,7 @@ MR.P Created Original
 Marco Added Scaling & Class Rearangement
 Cam added sprites (hopefully) and mario animation 2.3
 Marco Added Level editor, fixed(ish) barrels & new colors
+imrahn added a few movement keys added to mario (not final)
 cam added wip animation and adjusted marios movement
 Marco Added Ladder class and sprite
 imrahn added some game muisc that plays, stops when you die (check "SOUND_EFFECTS" for putting in the sounds)
@@ -9,3 +10,4 @@ Cam Added better mario animations, ladder movement
 Marco Added actually good working barrels, ladderCollider Class for use with the barrels, Combined Cam and imrahn's code into 0.3.3
 Cam added DK animations and mario ladder functionality
 Cam added level switching
+imrahn reworked the sound system
