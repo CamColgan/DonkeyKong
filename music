@@ -1,0 +1,14 @@
+// put this underneath "public void act()", first thing of the code
+if((GameState.level < 5) && (GameState.level >= 0)) {
+  music.playLoop();
+  boss_music.stop();
+} else if (GameState.level >= 5) {
+  boss_music.playLoop();
+  music.stop();
+} else {
+  boss_music.stop();
+  music.stop();
+}
+
+// put this underneath the other sounds
+GreenfootSound boss_music = new GreenfootSound("boss.mp3");
