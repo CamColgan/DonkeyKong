@@ -11,3 +11,6 @@ Marco Added actually good working barrels, ladderCollider Class for use with the
 Cam added DK animations and mario ladder functionality
 Cam added level switching
 imrahn reworked the sound system
+Cam fixed assorted jank
+Cam and Marco fixed last level and final polish
+Added comments
